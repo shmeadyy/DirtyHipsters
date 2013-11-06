@@ -1,34 +1,4 @@
-#DirtyHipsters
-=============
-SoundCloud recommendation app. 
+The Dirty Hipster
 
-
-##Links
-=============
-###github link 
-https://github.com/gopher-snakes-2013/DirtyHipsters
-
-###heroku link
-dirtyhipster.herokuapp.com
-
-###soundcloud api docs
-http://developers.soundcloud.com/docs
-
-###codeacademy
-http://www.codecademy.com/tracks/soundcloud
-
-###codingforgood
-http://cfg.good.is/lessons/soundcloud-api
-
-###coding for good video
-http://www.youtube.com/watch?v=8TuqjGxosrc
-
-###html5 widget blog post
-http://developers.soundcloud.com/blog/html5-widget-api
-
-###official soundcloud github (player)
-https://github.com/soundcloud/soundcloud-custom-player/wiki
-
-###sinatra/soundcloud gist
-https://gist.github.com/kgrz/4523645
-
+  The Dirty Hipster web application is my first experience using an API.  When you search your favorite artist's SoundCloud username, the DirtyHipster app will create a playlist of that user's favorited tracks.  To the left of the SoundCloud player widget are track statistics which are updated as each song in the playlist is played.  The current track statistics include: tags, genre, release year, BPM, the number of times the song has been favorited, and the description of the song.
+  A feature of the Dirty Hipster app is that one can put a 'hipster' filter on the playlists that they create.  After searching a SoundCloud username, the app user can put a 'clean', 'scruffy', or 'dirty' filter on the playlist, which will filter it by the number of favorites the song has received.
